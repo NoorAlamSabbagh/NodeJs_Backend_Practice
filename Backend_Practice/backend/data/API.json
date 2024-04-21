@@ -1,0 +1,39 @@
+{
+   "APIList": [
+      {
+         "id": 1,
+         "name": "noor alam",
+         "age": 25,
+         "graduation": "BTech",
+         "branch": "electronics"
+      },
+      {
+         "id": 2,
+         "name": "sovichk",
+         "age": 23,
+         "graduation": "BTech",
+         "branch": "Computer Science"
+      },
+      {
+         "id": 3,
+         "name": "Rajesh",
+         "age": 26,
+         "graduation": "BTech",
+         "branch": "Civil"
+      },
+      {
+         "id": 4,
+         "name": "Faisal",
+         "age": 27,
+         "graduation": "BTech",
+         "branch": "Civil Engineer"
+      },
+      {
+         "id": 5,
+         "name": "Sarang",
+         "age": 26,
+         "graduation": "BTech",
+         "branch": "Electric Engineer"
+      }
+   ]
+}

@@ -1,0 +1,39 @@
+doctype html 
+html(lang="en")
+    head
+        link(rel="stylesheet" href="home.css")
+        title My App using pug
+    body 
+        h2 Home Page 
+        div.productName product name - #{name}
+        div(class='productType') product type - #{type}
+        div#productprice product price - #{price}
+        div#productSize screen size- #{size} inch
+        div(id='productPrice') product price - #{price}
+
+
+        br
+        //- creating variable
+        -const username = "Alam"
+        h3.div.userName username - #{username}
+
+        //loop in pug
+        -const userList = ['yogesh', 'Nupur', 'Tarun']
+
+        h3 List of Users
+        each user,i in userList 
+          p= `user name ${user} position is ${i}`
+
+        -const productInfo = {name: 'TV', price: 48000, brand: 'OnePlus'}
+        each value,key in productInfo 
+          p= `${key} is ${value}`
+        //-   -p= `${key} is ${value}`
+
+
+        -const isUserLoggedIn = true 
+            if isUserLoggedIn
+                div Welcome Back, #{username}
+            else 
+                div Welcome User 
+
+        //- case username ser 
